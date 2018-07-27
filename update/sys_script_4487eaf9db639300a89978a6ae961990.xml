@@ -40,16 +40,8 @@
   gr.old_access = previous.assigned_lot;
   gr.insert();
   
-  function getAccessCard(user){
-    var card = new GlideRecord ('x_fcc_parking_mana_parking_management');
-    card.query('employee', user);
-    if (card.next()){
-      return card.access_card;
-    }
-  }
-  
   var i = 1;
-  var gr = new GlideRecord ('x_fcc_parking_mana_parking_management');
+  gr = new GlideRecord ('x_fcc_parking_mana_parking_management');
   gr.addNullQuery('assigned_lot');
   gr.addQuery('declined', 'false');
   gr.orderBy('service_date');
@@ -71,7 +63,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4487eaf9db639300a89978a6ae961990</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Parking Track Changes</sys_name>
         <sys_overrides/>
         <sys_package display_value="Parking Management" source="x_fcc_parking_mana">9bba5e3ddb239300a89978a6ae9619be</sys_package>
@@ -80,7 +72,7 @@
         <sys_scope display_value="Parking Management">9bba5e3ddb239300a89978a6ae9619be</sys_scope>
         <sys_update_name>sys_script_4487eaf9db639300a89978a6ae961990</sys_update_name>
         <sys_updated_by>david.grant</sys_updated_by>
-        <sys_updated_on>2018-07-27 20:51:15</sys_updated_on>
+        <sys_updated_on>2018-07-27 20:56:43</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
