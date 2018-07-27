@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="grant_type" table="x_fcc_parking_mana_parking_management" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>grant_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Group A - Special Accomodation</label>
+            <language>en</language>
+            <name>x_fcc_parking_mana_parking_management</name>
+            <sequence>100</sequence>
+            <sys_created_by>david.grant</sys_created_by>
+            <sys_created_on>2018-07-27 20:07:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a37e56b1db639300a89978a6ae961935</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>david.grant</sys_updated_by>
+            <sys_updated_on>2018-07-27 20:07:13</sys_updated_on>
+            <value>A</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>grant_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Group B - President</label>
+            <language>en</language>
+            <name>x_fcc_parking_mana_parking_management</name>
+            <sequence>200</sequence>
+            <sys_created_by>david.grant</sys_created_by>
+            <sys_created_on>2018-07-27 20:07:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3a9e12b1db639300a89978a6ae961998</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>david.grant</sys_updated_by>
+            <sys_updated_on>2018-07-27 20:07:34</sys_updated_on>
+            <value>B</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>grant_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Group C - Executive Mgmt Team</label>
+            <language>en</language>
+            <name>x_fcc_parking_mana_parking_management</name>
+            <sequence>300</sequence>
+            <sys_created_by>david.grant</sys_created_by>
+            <sys_created_on>2018-07-27 20:07:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e3aed2b1db639300a89978a6ae961913</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>david.grant</sys_updated_by>
+            <sys_updated_on>2018-07-27 20:07:53</sys_updated_on>
+            <value>C</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>grant_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Group D - Senior Leadership Team</label>
+            <language>en</language>
+            <name>x_fcc_parking_mana_parking_management</name>
+            <sequence>400</sequence>
+            <sys_created_by>david.grant</sys_created_by>
+            <sys_created_on>2018-07-27 20:08:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f4ce52b1db639300a89978a6ae96197d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>david.grant</sys_updated_by>
+            <sys_updated_on>2018-07-27 20:08:12</sys_updated_on>
+            <value>D</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>grant_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Group E - Senior Employees</label>
+            <language>en</language>
+            <name>x_fcc_parking_mana_parking_management</name>
+            <sequence>500</sequence>
+            <sys_created_by>david.grant</sys_created_by>
+            <sys_created_on>2018-07-27 20:08:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e5de1ab1db639300a89978a6ae961944</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>david.grant</sys_updated_by>
+            <sys_updated_on>2018-07-27 20:08:32</sys_updated_on>
+            <value>E</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>grant_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Group G - Allocation based on Seniority</label>
+            <language>en</language>
+            <name>x_fcc_parking_mana_parking_management</name>
+            <sequence>600</sequence>
+            <sys_created_by>david.grant</sys_created_by>
+            <sys_created_on>2018-07-27 20:08:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>66ee5ab1db639300a89978a6ae961905</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>david.grant</sys_updated_by>
+            <sys_updated_on>2018-07-27 20:08:49</sys_updated_on>
+            <value>G</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>grant_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Group W - Carpool</label>
+            <language>en</language>
+            <name>x_fcc_parking_mana_parking_management</name>
+            <sequence>700</sequence>
+            <sys_created_by>david.grant</sys_created_by>
+            <sys_created_on>2018-07-27 20:09:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>befe5ab1db639300a89978a6ae96196a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>david.grant</sys_updated_by>
+            <sys_updated_on>2018-07-27 20:09:09</sys_updated_on>
+            <value>W</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>grant_type</element>
+            <name>x_fcc_parking_mana_parking_management</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>david.grant</sys_created_by>
+            <sys_created_on>2018-07-27 20:07:02</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>ca9e56b1db639300a89978a6ae961936</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>grant_type</sys_name>
+            <sys_package display_value="Parking Management" source="x_fcc_parking_mana">9bba5e3ddb239300a89978a6ae9619be</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Parking Management">9bba5e3ddb239300a89978a6ae9619be</sys_scope>
+            <sys_update_name>sys_choice_x_fcc_parking_mana_parking_management_grant_type</sys_update_name>
+            <sys_updated_by>david.grant</sys_updated_by>
+            <sys_updated_on>2018-07-27 20:07:02</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

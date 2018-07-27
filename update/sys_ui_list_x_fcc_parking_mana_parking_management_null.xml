@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_fcc_parking_mana_parking_management" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>wait_list</element>
+            <list_id display_value="x_fcc_parking_mana_parking_management" element="NULL" name="x_fcc_parking_mana_parking_management" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3e6f1235db639300a89978a6ae96197a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>david.grant</sys_created_by>
+            <sys_created_on>2018-07-27 20:10:38</sys_created_on>
+            <sys_id>b26f1235db639300a89978a6ae96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.grant</sys_updated_by>
+            <sys_updated_on>2018-07-27 20:10:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>employee</element>
+            <list_id display_value="x_fcc_parking_mana_parking_management" element="NULL" name="x_fcc_parking_mana_parking_management" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3e6f1235db639300a89978a6ae96197a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>david.grant</sys_created_by>
+            <sys_created_on>2018-07-27 20:10:38</sys_created_on>
+            <sys_id>366f1235db639300a89978a6ae96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.grant</sys_updated_by>
+            <sys_updated_on>2018-07-27 20:10:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>service_date</element>
+            <list_id display_value="x_fcc_parking_mana_parking_management" element="NULL" name="x_fcc_parking_mana_parking_management" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3e6f1235db639300a89978a6ae96197a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>david.grant</sys_created_by>
+            <sys_created_on>2018-07-27 20:10:38</sys_created_on>
+            <sys_id>b66f1235db639300a89978a6ae96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.grant</sys_updated_by>
+            <sys_updated_on>2018-07-27 20:10:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>declined</element>
+            <list_id display_value="x_fcc_parking_mana_parking_management" element="NULL" name="x_fcc_parking_mana_parking_management" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3e6f1235db639300a89978a6ae96197a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>david.grant</sys_created_by>
+            <sys_created_on>2018-07-27 20:10:38</sys_created_on>
+            <sys_id>3a6f1235db639300a89978a6ae96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.grant</sys_updated_by>
+            <sys_updated_on>2018-07-27 20:10:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_lot</element>
+            <list_id display_value="x_fcc_parking_mana_parking_management" element="NULL" name="x_fcc_parking_mana_parking_management" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3e6f1235db639300a89978a6ae96197a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>david.grant</sys_created_by>
+            <sys_created_on>2018-07-27 20:10:38</sys_created_on>
+            <sys_id>ba6f1235db639300a89978a6ae96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.grant</sys_updated_by>
+            <sys_updated_on>2018-07-27 20:10:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>grant_type</element>
+            <list_id display_value="x_fcc_parking_mana_parking_management" element="NULL" name="x_fcc_parking_mana_parking_management" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3e6f1235db639300a89978a6ae96197a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>david.grant</sys_created_by>
+            <sys_created_on>2018-07-27 20:10:38</sys_created_on>
+            <sys_id>3e6f1235db639300a89978a6ae96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.grant</sys_updated_by>
+            <sys_updated_on>2018-07-27 20:10:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>granted_date</element>
+            <list_id display_value="x_fcc_parking_mana_parking_management" element="NULL" name="x_fcc_parking_mana_parking_management" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3e6f1235db639300a89978a6ae96197a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>david.grant</sys_created_by>
+            <sys_created_on>2018-07-27 20:10:38</sys_created_on>
+            <sys_id>be6f1235db639300a89978a6ae96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.grant</sys_updated_by>
+            <sys_updated_on>2018-07-27 20:10:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>expiry_date</element>
+            <list_id display_value="x_fcc_parking_mana_parking_management" element="NULL" name="x_fcc_parking_mana_parking_management" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3e6f1235db639300a89978a6ae96197a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>david.grant</sys_created_by>
+            <sys_created_on>2018-07-27 20:10:38</sys_created_on>
+            <sys_id>326f1235db639300a89978a6ae96197c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.grant</sys_updated_by>
+            <sys_updated_on>2018-07-27 20:10:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>parking_spot</element>
+            <list_id display_value="x_fcc_parking_mana_parking_management" element="NULL" name="x_fcc_parking_mana_parking_management" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3e6f1235db639300a89978a6ae96197a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>david.grant</sys_created_by>
+            <sys_created_on>2018-07-27 20:10:38</sys_created_on>
+            <sys_id>b26f1235db639300a89978a6ae96197c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.grant</sys_updated_by>
+            <sys_updated_on>2018-07-27 20:10:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>access_card</element>
+            <list_id display_value="x_fcc_parking_mana_parking_management" element="NULL" name="x_fcc_parking_mana_parking_management" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3e6f1235db639300a89978a6ae96197a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>david.grant</sys_created_by>
+            <sys_created_on>2018-07-27 20:10:38</sys_created_on>
+            <sys_id>366f1235db639300a89978a6ae96197c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.grant</sys_updated_by>
+            <sys_updated_on>2018-07-27 20:10:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_fcc_parking_mana_parking_management</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>david.grant</sys_created_by>
+            <sys_created_on>2018-07-27 20:10:38</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3e6f1235db639300a89978a6ae96197a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_fcc_parking_mana_parking_management</sys_name>
+            <sys_package display_value="Parking Management" source="x_fcc_parking_mana">9bba5e3ddb239300a89978a6ae9619be</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Parking Management">9bba5e3ddb239300a89978a6ae9619be</sys_scope>
+            <sys_update_name>sys_ui_list_x_fcc_parking_mana_parking_management_null</sys_update_name>
+            <sys_updated_by>david.grant</sys_updated_by>
+            <sys_updated_on>2018-07-27 20:10:38</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

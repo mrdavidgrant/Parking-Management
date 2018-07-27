@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Parking Import" max_length="40" name="x_fcc_parking_mana_parking_import" type="collection">
+        <element attributes="import_attribute_name=Access Card,edge_encryption_enabled=true" label="Access Card" max_length="40" name="u_access_card" type="string"/>
+        <element attributes="import_attribute_name=Assigned Lot,edge_encryption_enabled=true" label="Assigned Lot" max_length="41" name="u_assigned_lot" type="string"/>
+        <element attributes="import_attribute_name=Declined,edge_encryption_enabled=true" label="Declined" max_length="40" name="u_declined" type="string"/>
+        <element attributes="import_attribute_name=End Date" label="End Date" max_length="40" name="u_end_date" type="glide_date"/>
+        <element attributes="import_attribute_name=Expiry Date" label="Expiry Date" max_length="40" name="u_expiry_date" type="glide_date"/>
+        <element attributes="import_attribute_name=First,edge_encryption_enabled=true" label="First" max_length="40" name="u_first" type="string"/>
+        <element attributes="import_attribute_name=G" label="G" max_length="40" name="u_g" type="glide_date"/>
+        <element attributes="import_attribute_name=Granted Date" label="Granted Date" max_length="40" name="u_granted_date" type="glide_date"/>
+        <element attributes="import_attribute_name=Grant Type,edge_encryption_enabled=true" label="Grant Type" max_length="40" name="u_grant_type" type="string"/>
+        <element attributes="import_attribute_name=Last,edge_encryption_enabled=true" label="Last" max_length="40" name="u_last" type="string"/>
+        <element attributes="import_attribute_name=Location,edge_encryption_enabled=true" label="Location" max_length="40" name="u_location" type="string"/>
+        <element attributes="import_attribute_name=Name,edge_encryption_enabled=true" label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="import_attribute_name=Parking Spot,edge_encryption_enabled=true" label="Parking Spot" max_length="40" name="u_parking_spot" type="string"/>
+        <element attributes="import_attribute_name=Service Date" label="Service Date" max_length="40" name="u_service_date" type="glide_date"/>
+    </element>
+</database>

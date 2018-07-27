@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Parking Management" max_length="40" name="x_fcc_parking_mana_parking_management" type="collection">
+        <element label="Access Card" max_length="8" name="access_card" type="string"/>
+        <element choice="1" label="Assigned Lot" max_length="40" name="assigned_lot" type="choice">
+            <choice>
+                <element label="Rose St.- Random (1860 Rose)" sequence="100" value="Rose"/>
+                <element label="FCC Ag Place Underground Parkade" sequence="200" value="Ag Place"/>
+                <element label="FCC Tower Underground Parkade" sequence="300" value="Tower"/>
+                <element label="Conexus Plaza, Random Ground Level Heated" sequence="400" value="Conexus"/>
+            </choice>
+        </element>
+        <element label="Declined" max_length="40" name="declined" type="boolean"/>
+        <element label="Employee" mandatory="true" max_length="32" name="employee" reference="sys_user" reference_qual="active=true^location.parent=753a2f0713f5da00c005babed144b09f^EQ" reference_qual_condition="active=true^location.parent=753a2f0713f5da00c005babed144b09f^EQ" type="reference"/>
+        <element label="End Date" max_length="40" name="end_date" type="glide_date"/>
+        <element label="Expiry Date" max_length="40" name="expiry_date" type="glide_date"/>
+        <element label="Granted Date" max_length="40" name="granted_date" type="glide_date"/>
+        <element choice="1" label="Grant Type" max_length="40" name="grant_type" type="choice">
+            <choice>
+                <element label="Group A - Special Accomodation" sequence="100" value="A"/>
+                <element label="Group B - President" sequence="200" value="B"/>
+                <element label="Group C - Executive Mgmt Team" sequence="300" value="C"/>
+                <element label="Group D - Senior Leadership Team" sequence="400" value="D"/>
+                <element label="Group E - Senior Employees" sequence="500" value="E"/>
+                <element label="Group G - Allocation based on Seniority" sequence="600" value="G"/>
+                <element label="Group W - Carpool" sequence="700" value="W"/>
+            </choice>
+        </element>
+        <element label="Parking Spot" max_length="16" name="parking_spot" type="string"/>
+        <element label="Service Date" max_length="40" name="service_date" type="glide_date"/>
+        <element label="Wait List" max_length="40" name="wait_list" type="integer"/>
+        <index name="index">
+            <element name="employee"/>
+        </index>
+    </element>
+</database>
