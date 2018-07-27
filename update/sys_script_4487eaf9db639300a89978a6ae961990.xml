@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_fcc_parking_mana_parking_management</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Parking Track Changes</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+  // Add your code here
+ 
+  var gr = new GlideRecord('x_fcc_parking_mana_parking_changes');
+  gr.initialize();
+  gr.employee = current.employee;
+  gr.access_card = getAccessCard(current.employee);
+  gr.new_access = current.assigned_lot;
+  gr.old_access = previous.assigned_lot;
+  gr.insert();
+  
+  function getAccessCard(user){
+    var card = new GlideRecord ('x_fcc_parking_mana_parking_management');
+    card.query('employee', user);
+    if (card.next()){
+      return card.access_card;
+    }
+  }
+  
+  var i = 1;
+  var gr = new GlideRecord ('x_fcc_parking_mana_parking_management');
+  gr.addNullQuery('assigned_lot');
+  gr.addQuery('declined', 'false');
+  gr.orderBy('service_date');
+  gr.query();
+  while (gr.next()){
+    if (gr.employee.getAttribute('active') == 'false') {
+      gr.wait_list = '';
+    }
+    gr.wait_list = i;
+    gr.update();
+    i++;
+  }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>david.grant</sys_created_by>
+        <sys_created_on>2018-07-27 20:51:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4487eaf9db639300a89978a6ae961990</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Parking Track Changes</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Parking Management" source="x_fcc_parking_mana">9bba5e3ddb239300a89978a6ae9619be</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Parking Management">9bba5e3ddb239300a89978a6ae9619be</sys_scope>
+        <sys_update_name>sys_script_4487eaf9db639300a89978a6ae961990</sys_update_name>
+        <sys_updated_by>david.grant</sys_updated_by>
+        <sys_updated_on>2018-07-27 20:51:15</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=4487eaf9db639300a89978a6ae961990"/>
+</record_update>

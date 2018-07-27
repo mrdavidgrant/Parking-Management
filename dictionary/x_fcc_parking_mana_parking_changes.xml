@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Parking Changes" max_length="40" name="x_fcc_parking_mana_parking_changes" type="collection">
+        <element label="Access Card" max_length="8" name="access_card" type="string"/>
         <element label="Employee" max_length="32" name="employee" reference="sys_user" type="reference"/>
         <element choice="1" choice_field="assigned_lot" choice_table="x_fcc_parking_mana_parking_management" label="New Access" max_length="40" name="new_access" type="choice">
             <choice/>
